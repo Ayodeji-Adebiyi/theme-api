@@ -129,7 +129,7 @@ const HeaderStyled = styled.header`
         padding: 1rem 10px;
         .bg-overlay{
             clip-path: inset(0 0 40% 0) !important;
-            height: 65% !important;
+            height: 100% !important;
         }
         .header-content{
             grid-template-columns: 1fr;

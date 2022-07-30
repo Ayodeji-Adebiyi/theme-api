@@ -2,7 +2,6 @@
   "name": "theme-api",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ayodeji-Adebiyi.github.io"
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -13,7 +12,7 @@
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
-  
+  "homepage": "https://Ayodeji-Adebiyi.github.io/theme-api",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
