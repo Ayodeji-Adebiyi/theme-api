@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/theme-api/static/js/main.b54cadd3.js",
+    "main.js": "/theme-api/static/js/main.dc6e8f7b.js",
     "static/media/orilabi-logo.png": "/theme-api/static/media/orilabi-logo.bf895ce8910ff56eb3de.png",
     "static/media/chicken.png": "/theme-api/static/media/chicken.455733547c4cae408b50.png",
     "index.html": "/theme-api/index.html",
-    "main.b54cadd3.js.map": "/theme-api/static/js/main.b54cadd3.js.map"
+    "main.dc6e8f7b.js.map": "/theme-api/static/js/main.dc6e8f7b.js.map"
   },
   "entrypoints": [
-    "static/js/main.b54cadd3.js"
+    "static/js/main.dc6e8f7b.js"
   ]
 }
