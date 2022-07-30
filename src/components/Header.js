@@ -129,7 +129,7 @@ const HeaderStyled = styled.header`
         padding: 1rem 10px;
         .bg-overlay{
             clip-path: inset(0 0 40% 0) !important;
-            height: 60% !important;
+            height: 65% !important;
         }
         .header-content{
             grid-template-columns: 1fr;
@@ -138,11 +138,11 @@ const HeaderStyled = styled.header`
         .l-header-content{
             text-align: center;
             h1{
-                font-size: 1rem !important;
+                font-size: 1.2rem !important;
             }
             p{
-                font-size: .6rem !important;
-                margin-bottom: 2rem !important;
+                font-size: .8rem !important;
+                margin-bottom: 1rem !important;
             }
         }
         .r-header-content{
