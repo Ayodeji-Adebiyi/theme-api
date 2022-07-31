@@ -1,17 +1,19 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import { useTheme } from '../context/ThemeContext';
 import RightNav from './RightNav';
 
 function Burger() {
+    const Theme = useTheme()
     const [open, setOpen] = useState(false)
     return (
         <>
-            <BurgerStyled open={open} onClick={() => setOpen(!open)}>
+            <BurgerStyled open={open} onClick={() => setOpen(!open)} Theme={Theme}>
                 <div/>
                 <div/>
                 <div/>
             </BurgerStyled>
-            <RightNav open={open}/>
+            <RightNav open={open} Theme={Theme}/>
         </> 
     )
 }
@@ -35,7 +37,7 @@ const BurgerStyled = styled.div`
     div{
         width: 2rem;
         height: 0.25rem;
-        background-color: ${({open}) => open ? '#ccc' : '#333'};
+        background-color: ${({open}) => open ? '#ccc' : '#7B9E87'};
         border-radius: 10px;
         transform-origin: 1px;
         transition: all .3s linear;

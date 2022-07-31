@@ -19,7 +19,7 @@ const Themes = [
         name: 'purple',
         primary: '#10121A',
         secondary: '#fff',
-        background: '#363569',
+        background: '#A15E49',
         title: '#10121A',
         body: '#fff',
     }

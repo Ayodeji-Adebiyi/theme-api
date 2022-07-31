@@ -96,7 +96,7 @@ const HeaderStyled = styled.header`
             
             img{
                 width: 80%;
-                filter: drop-shadow(1px 2px 5px ${props => props.Theme.primary});
+                
             }
         }
     }
